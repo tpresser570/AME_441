@@ -3,13 +3,9 @@ Project folder for AME 441 Code
 
 This is the Read-Me file for use before downloading code. 
 
-SCRIPTS ARE WRITTEN IN PYTHON 
-package: PyCharm
-
-For use in raspberry pi 4 
-
+SCRIPTS ARE WRITTEN IN MATLAB 
 
 Project Goal:
-  design, build, and test a quadruped robot. 
+  design, build, and test a bipedal robot. 
   
   
