@@ -24,13 +24,15 @@ leg_width = 0.04;
 lower_leg_length = 0.20; 
 upper_leg_length = 0.22;
 
-foot_x = 0.04;
+foot_x = 0.08;
 foot_y = 0.10;
 foot_z = 0.02;
 
 torso_width = 0.14; 
 torso_length = 0.10; 
-torso_height = 0.06; 
+torso_height = 0.06;
+torso_density = 1000;
+torso_mass = 6;
 
 torso_offset_height = 0.04; 
 torso_offset_length = 0; 

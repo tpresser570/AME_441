@@ -13,11 +13,11 @@ addpath(genpath('LIPM'), ...                    % Linear inverted pendulum model
         genpath('Optimization'), ...            % Optimization files
         genpath('ControlDesign'), ...           % Control design files
         genpath('ReinforcementLearning'), ...   % Reinforcement learning files
-        genpath('Libraries'),...  
-        genpath('RoBOT_Modeling_Simulation'));  % Other dependencies
+        genpath('Libraries'),...                % Other dependencies
+        genpath('RoBOT_Modeling_Simulation'));
 
-%% Load basic robot parameters from modeling and simulation example
-robotParameters
+%% Load basic robot parameters from prelim NEWT parameters file
+lowFiRobotParametersNEWT
 
 %% Open the README file
 edit README.md

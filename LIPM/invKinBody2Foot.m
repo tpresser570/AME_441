@@ -20,14 +20,14 @@ function th = invKinBody2Foot(tform, isLeft, varargin)
 %
 % Copyright 2019 The MathWorks, Inc.
 
-L1 = -0.12;
+L1 = -0.09;
 if isLeft
     L1 = -L1;
 end
 L2 = 0;
-L3 = 0.4;   % Upper leg length
-L4 = 0.38;  % Lower leg length
-L5 = 0;     % Ankle to foot contact offset
+L3 = 0.22;   % Upper leg length
+L4 = 0.2;  % Lower leg length
+L5 = 0.02;     % Ankle to foot contact offset
 
 %% 1) Perform some offsets
 tform(1,4) = -tform(1,4);
